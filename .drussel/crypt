@@ -1,0 +1,17 @@
+#!/bin/bash
+
+if [ "$1" = "-e" ]; then
+  openssl enc -aes-256-cbc -salt -pbkdf2 -in "$2" -out "$2.grey"
+elif [ "$1" = "-d" ]; then
+  if [ -z "$3" ]; then
+    read -p "Output file: " out
+  else
+    out="$3"
+  fi
+  openssl enc -aes-256-cbc -d -pbkdf2 -in "$2" -out "$out"
+else
+  echo "How to use ts: $0 -e inputfile | -d inputfile [outputfile]"
+fi
+
+
+# FUCK OFF
