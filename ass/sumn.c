@@ -1,5 +1,5 @@
 #include <windows.h>
-#include <wininet.h>
+#include <winhttp.h> // Keep this one
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -8,9 +8,10 @@
 #include <time.h>
 #include <wincrypt.h>
 
-#pragma comment(lib, "wininet.lib")
+// Remove wininet.lib
 #pragma comment(lib, "advapi32.lib")
 #pragma comment(lib, "crypt32.lib")
+#pragma comment(lib, "winhttp.lib")
 
 // Configuration
 #define SLEEP_SECONDS 30
