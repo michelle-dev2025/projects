@@ -25,7 +25,7 @@ void header() {
     printf("%s       _-_        ▒▓░▒█▓▓░▓█▒░▓▒       _-_    %s\n", RED, RESET);
     printf("%s       _-_          ▓█▓▒█▒█▒█▓         _-_    %s\n", RED, RESET);
     printf("%s       _-_-_        _________        _-_-_    %s\n", RED, RESET);
-    printf("%s       _-_-_-_-_-_-_skull box_-_-_-_-_-_-_    %s\n\n\n", RED, RESET);
+    printf("%s       _-_-_-_-_-_-/\\\_skull box_\\\\-_-_-_-_-_-_    %s\n\n\n", RED, RESET);
 }
 
 void wait() {
