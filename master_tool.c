@@ -14,16 +14,16 @@
 void header() {
     system("clear");
     printf("%s       _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_    %s\n", RED, RESET);
-    printf("%s       _-_ _-       ▒███████▓▓▒       -_ _-_    %s\n", RED, RESET);
-    printf("%s       _-_-       ▓████████▓█▓█▓▒      -_-_    %s\n", RED, RESET);
-    printf("%s       _-_       ▓███▓█▓██████▓█▓▒      _-_    %s\n", RED, RESET);
-    printf("%s       _-_      ▓▓██▒█▓█▓▓▓██▒███▓▒     _-_    %s\n", RED, RESET);
-    printf("%s       _-_     ▒███▒░▒██▓███▒░▒██▓▒     _-_    %s\n", RED, RESET);
-    printf("%s       _-_     ▒▓▓▒░░░▒▒▓░▓▒░░░▒█▓▒     _-_    %s\n", RED, RESET);
-    printf("%s       _-_.    ▒▓▒░    ░▓█░    ░▒█     _-_    %s\n", RED, RESET);
-    printf("%s       _-_      ▒▓▒▒░░▒▒▓██▒░░▒░█      _-_    %s\n", RED, RESET);
-    printf("%s       _-_        ▒▓░▒█▓▓░▓█▒░█        _-_    %s\n", RED, RESET);
-    printf("%s       _-_          ▓█▓▒█▒█▒█          _-_    %s\n", RED, RESET);
+    printf("%s       _-_ _-       ▒████████▒      -_ _-_    %s\n", RED, RESET);
+    printf("%s       _-_-       ▒████████▓██▓▒      -_-_    %s\n", RED, RESET);
+    printf("%s       _-_       ▒███▓█▓██████▓█▒      _-_    %s\n", RED, RESET);
+    printf("%s       _-_      ▒▓██▒█▓█▓▓▓██▒██▓▒     _-_    %s\n", RED, RESET);
+    printf("%s       _-_     ▒███▒░▒██▓███▒░▒███▒    _-_    %s\n", RED, RESET);
+    printf("%s       _-_     ▒▓▓▒░░░▒▒▓█▓▒░░░▒█▓▒    _-_    %s\n", RED, RESET);
+    printf("%s       _-_.    ▒▓▒░    ░▓█░    ░▒█▒    _-_    %s\n", RED, RESET);
+    printf("%s       _-_      ▒▓▒▒░░▒▒▓██▒░░▒░█▒     _-_    %s\n", RED, RESET);
+    printf("%s       _-_        ▒▓░▒█▓▓░▓█▒░▓▒       _-_    %s\n", RED, RESET);
+    printf("%s       _-_          ▓█▓▒█▒█▒█▓         _-_    %s\n", RED, RESET);
     printf("%s       _-_-_        _________        _-_-_    %s\n", RED, RESET);
     printf("%s       _-_-_-_-_-_-_skull box_-_-_-_-_-_-_    %s\n\n\n", RED, RESET);
 }
